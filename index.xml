@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="34birds ReaScripts" generated_by="34birds">
+<index version="1" name="34birds ReaScripts" generated_by="34birds"
+       commit="21edb8998b6ada5bf411f9c3611ba1c0b9906f0a">
 
   <category name="Utilities">
     <reapack name="Region Time Counter" type="script">
-
       <desc>
         Minimal REAPER utility that displays the total UNIQUE length of all regions.
         Overlapping regions are merged, so overlapping parts are not double-counted.
@@ -11,19 +11,15 @@
       </desc>
 
       <version name="1.0.0">
-        <changelog>
-          Initial release.
-        </changelog>
-
+        <changelog>Initial release.</changelog>
         <files>
           <file
             name="Region Time Counter.lua"
             type="script"
             platform="all"
-            url="https://raw.githubusercontent.com/unhappyepisode/REAPER-Region-Time-Counter/main/Region%20Time%20Counter.lua" />
+            url="https://github.com/unhappyepisode/REAPER-Region-Time-Counter/raw/21edb8998b6ada5bf411f9c3611ba1c0b9906f0a/Region%20Time%20Counter.lua" />
         </files>
       </version>
-
     </reapack>
   </category>
 
